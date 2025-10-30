@@ -40,6 +40,13 @@ These three APIs can be accessed via the waybackpy either by importing it from a
 pip install waybackpy -U
 ```
 
+If you want to install in only to the current folder - without messing with global Python packages, or on Gentoo Linux where usual pip installating is not available - use [virtual env](https://docs.python.org/3/library/venv.html):
+
+```bash
+python -m venv .venv && . .venv/bin/activate
+pip install waybackpy -U
+```
+
 **Using [conda](https://en.wikipedia.org/wiki/Conda_(package_manager)), from [conda-forge](https://anaconda.org/conda-forge/waybackpy) (recommended)**:
 
 See also [waybackpy feedstock](https://github.com/conda-forge/waybackpy-feedstock), maintainers are [@rafaelrdealmeida](https://github.com/rafaelrdealmeida/),
